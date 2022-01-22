@@ -1,0 +1,44 @@
+body{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+footer{
+	display: flex;
+	color: white;
+	background-color: black;
+}
+
+.left , .mid, .right{
+	margin: 20px;
+}
+
+.mid, .right{
+	text-align: left;
+}
+
+h1{
+	font-size: 18px;
+	font-family: sans-serif;
+}
+.hr{
+	background-color: red;
+	height: 3px;
+	width: 40px;
+	margin-bottom: 10px;
+}
+.img{
+	background-color: white;
+	text-align: center;
+	
+}
+ul{
+	list-style: none;
+	text-align: left;
+}
+
+ul li{
+	padding: 4px;
+}
+
