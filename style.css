@@ -4,6 +4,85 @@ body{
 	box-sizing: border-box;
 }
 
+
+
+
+/*/*header*/
+
+
+.header {
+    background-color: red;
+    color: white;
+    width: 100%;
+    display: flex;
+}
+.header-left {
+    width: 50%;
+    text-align: center;
+    vertical-align: middle;
+}
+.header-left img {
+    height: 30px;
+   
+}
+.header-rt {
+    width: 50%;
+}
+.navbar {
+    display: flex;
+}
+.navbar a {
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    padding: 14px 16px;
+}
+.dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: red;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+    background-color: #FF0020;
+}
+.dropdown-content a:hover {
+    background-color: white;
+    color: black;
+}
+
+main{
+	height: 250px;
+	text-align: center;
+	align-items: middle;
+}
+
+
+
+
+
+
+/*footer*/
+
 footer{
 	display: flex;
 	color: white;
